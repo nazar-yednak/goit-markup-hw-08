@@ -1,0 +1,36 @@
+.footer-social {
+  margin-left: 70px;
+  padding-top: 15px;
+}
+.footer-link {
+  display: flex;
+}
+// .footer-social {
+//   padding-top: 15px;
+// }
+.text-footer {
+  margin-bottom: 20px;
+  width: 145px;
+  height: 18.4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $second-accent-color;
+}
+.social-footer {
+  fill: currentColor;
+}
+.footer-link__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link:hover,
+.social__link:focus {
+  background-color: $accent-color;
+}
