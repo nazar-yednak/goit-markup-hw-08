@@ -1268,6 +1268,11 @@ footer {
   }
 }
 
+.footer-wrap {
+  display: block;
+  text-align: center;
+}
+
 .logo-footers {
   display: block;
   margin-bottom: 20px;
@@ -1283,9 +1288,7 @@ footer {
 }
 
 .address {
-  text-align: center;
   display: inline;
-  margin: 0;
   width: 231px;
   font-family: Roboto;
   font-style: normal;
@@ -1293,6 +1296,8 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-align: center;
+  justify-content: center;
 }
 
 .address__tel, .address__mail {
@@ -1305,8 +1310,8 @@ footer {
 }
 
 .address__map__list {
-  margin-right: auto;
-  margin-left: auto;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1367,7 +1372,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .text-footer {
-    margin-top: 12px;
+    margin-top: 15px;
   }
 }
 
@@ -1394,8 +1399,8 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 20px;
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1403,10 +1408,10 @@ footer {
     display: block;
     width: 219px;
     height: 16px;
-    margin-top: 0px;
     margin-left: 93px;
     margin-bottom: 20px;
     padding-top: 15px;
+    margin-top: 0;
   }
 }
 
@@ -1435,14 +1440,14 @@ footer {
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #757575;
   margin-bottom: 20px;
+  color: #757575;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 @media screen and (min-width: 1200px) {
   .subscription__input {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 

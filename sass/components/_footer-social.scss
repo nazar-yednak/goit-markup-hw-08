@@ -18,6 +18,8 @@
 .text-footer {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -27,8 +29,9 @@
   text-transform: uppercase;
   color: $second-accent-color;
   @media screen and (min-width: 1200px) {
+    margin-top: 15px;
   }
-  margin-bottom: 20px;
+
   width: 145px;
   height: 18.4px;
   display: block;

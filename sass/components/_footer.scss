@@ -1,5 +1,6 @@
 footer {
   padding-top: 65px;
+  padding-bottom: 55px;
   background: #2f303a;
   flex-direction: column;
   display: flex;
@@ -8,7 +9,6 @@ footer {
   margin-left: auto;
   @media screen and (min-width: 1200px) {
     display: flex;
-
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -27,4 +27,8 @@ footer {
     margin-bottom: 0;
     color: $second-accent-color;
   }
+}
+.footer-wrap {
+  display: block;
+  text-align: center;
 }
