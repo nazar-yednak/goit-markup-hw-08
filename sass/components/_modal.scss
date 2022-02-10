@@ -16,11 +16,6 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
-
-  padding: 40px;
-
-  width: 528px;
-  height: 581px;
   border-radius: 4px;
 
   background: $second-accent-color;
@@ -29,6 +24,13 @@
   opacity: 1;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px;
+  width: 450px;
+  height: 609px;
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    height: 581px;
+  }
 }
 .btn-modal {
   position: absolute;
@@ -56,9 +58,8 @@
   height: 18px;
 
   fill: #000000;
-  .btn-modal:hover & ,
-  .btn-modal:focus &{
+  .btn-modal:hover &,
+  .btn-modal:focus & {
     fill: $accent-color;
-
   }
 }
