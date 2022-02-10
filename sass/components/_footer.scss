@@ -7,6 +7,13 @@ footer {
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-left: 79px;
+    padding-right: 89px;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
     padding-top: 60px;
@@ -16,6 +23,9 @@ footer {
 
 .container-footer {
   display: block;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
   }
@@ -28,7 +38,11 @@ footer {
     color: $second-accent-color;
   }
 }
+
 .footer-wrap {
-  display: block;
-  text-align: center;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
 }

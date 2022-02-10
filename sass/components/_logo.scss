@@ -11,6 +11,9 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  @media screen and (max-width: 767px) {
+    margin-right: auto;
+  }
 }
 .logo-s {
   font-family: Raleway;

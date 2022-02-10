@@ -5,11 +5,19 @@
     margin: 0 auto;
     padding: 0;
   }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 .footer-link {
   display: flex;
   justify-content: center;
   text-align: center;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
   }
@@ -29,6 +37,9 @@
   text-transform: uppercase;
   color: $second-accent-color;
   @media screen and (min-width: 1200px) {
+    margin-top: 15px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-top: 15px;
   }
 
