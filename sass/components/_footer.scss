@@ -1,15 +1,30 @@
 footer {
-  display: flex;
+  padding-top: 65px;
   background: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.container-footer {
+  flex-direction: column;
   display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.container-footer {
+  display: block;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .footers {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: $second-accent-color;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $second-accent-color;
+  }
 }

@@ -1,18 +1,23 @@
 .footer-social {
-  margin-left: 70px;
-  padding-top: 15px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+    padding-top: 15px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 .footer-link {
   display: flex;
+  justify-content: center;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
-// .footer-social {
-//   padding-top: 15px;
-// }
-.text-footer {
-  margin-bottom: 20px;
-  width: 145px;
-  height: 18.4px;
 
+.text-footer {
+  margin-right: auto;
+  margin-left: auto;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -20,8 +25,13 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: $second-accent-color;
+  @media screen and (min-width: 1200px) {
+  }
+  margin-bottom: 20px;
+  width: 145px;
+  height: 18.4px;
+  display: block;
 }
 .social-footer {
   fill: currentColor;

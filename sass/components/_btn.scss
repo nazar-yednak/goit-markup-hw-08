@@ -1,4 +1,3 @@
-
 .btn-hero {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -14,21 +13,21 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  
-&:hover,
-&:focus {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: $prymary-bg-color;
-  color: $second-accent-color;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
+  &:hover,
+  &:focus {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: $prymary-bg-color;
+    color: $second-accent-color;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .form-btn {
@@ -53,7 +52,7 @@
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.works__btn  {
+.works__btn {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -75,24 +74,24 @@
   cursor: pointer;
 
   &:hover,
-  &:focus{  
-  background-color: $prymary-bg-color;
-  color: $second-accent-color;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-
+  &:focus {
+    background-color: $prymary-bg-color;
+    color: $second-accent-color;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
 .works__btn--active {
-  background:$accent-color;
+  background: $accent-color;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: $second-accent-color;
 }
-.subscription__btn{
-  display: flex;
+.subscription__btn {
+  position: relative;
+  // display: flex;
   width: 200px;
   height: 50px;
   color: $second-accent-color;
@@ -103,15 +102,16 @@
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 62px;
+  padding-left: 29px;
   font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
-justify-content: center;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
- cursor: pointer;
-
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
