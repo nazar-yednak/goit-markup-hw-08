@@ -1,24 +1,31 @@
 .work__title {
-  margin: 0 auto;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $prymary-text-color;
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $prymary-text-color;
+  }
 }
 .work__list {
-  display: flex;
-  flex-wrap: wrap;
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .work__item {
   position: relative;
   flex-basis: calc(100% / 3 - $list-work-item);
   margin-left: $list-work-item;
   &:first-of-type {
-  margin-left: 0;
-}
+    margin-left: 0;
+  }
 }
 .work__text {
   position: absolute;

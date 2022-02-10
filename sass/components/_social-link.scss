@@ -1,5 +1,8 @@
 .social {
-  display: flex;
+  display: inline-flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .social__link {
@@ -11,16 +14,15 @@
   color: $icon-color;
   &:focus,
   &:hover {
-  background-color: $accent-color;
-  color: $second-accent-color;
-}
-&--footer{
-  color: $second-accent-color;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 12px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
+    background-color: $accent-color;
+    color: $second-accent-color;
+  }
+  &--footer {
+    color: $second-accent-color;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
 
 .social__icon {
@@ -30,13 +32,11 @@
   fill: currentColor;
   width: 20px;
   height: 20px;
-
-
 }
 
 .social__item {
   margin-left: 0;
   &:not(:last-child) {
-  margin-right: 10px;
-}
+    margin-right: 10px;
+  }
 }
