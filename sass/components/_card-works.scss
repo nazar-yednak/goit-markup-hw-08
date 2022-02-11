@@ -119,3 +119,11 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
+.card-list__img {
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+  }
+}

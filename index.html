@@ -30,7 +30,7 @@
         <nav class="main-nav">
           <ul class="main-nav__list list">
             <li class="main-nav__item">
-              <a class="main-nav__link main-nav__current link" href="">Студия</a>
+              <a class="main-nav__link main-nav__current link" href="./index.html">Студия</a>
             </li>
             <li class="main-nav__item">
               <a class="main-nav__link link" href="./portfolio.html">Портфолио</a>
@@ -219,15 +219,21 @@
           <h2 class="work__title">Чем мы занимаемся</h2>
           <ul class="list work__list">
             <li class="work__item">
-              <img src="./images/box1.jpg" alt="Набор кода" width="370" />
+             
+              <img srcset="./images/adaptive/wwd/img@1x.jpg 1x, ./images/adaptive/wwd/img@2x.jpg 2x"
+                            src="./images/wwd/img.jpg" alt="Набор кода" width="370" height="294" />
               <p class="work__text">Десктопные приложения</p>
             </li>
             <li class="work__item">
-              <img src="./images/box2.jpg" alt="Оптимизация под мобильное устройство" width="370" />
+              
+               <img srcset="./images/adaptive/wwd/img2@1x.jpg 1x, ./images/adaptive/wwd/img2@2x.jpg 2x"
+                            src="./images/wwd/img2.jpg" alt="Оптимизация под мобильное устройство" width="370" height="294" />
               <p class="work__text">Мобильные приложения</p>
             </li>
             <li class="work__item">
-              <img src="./images/box3.jpg" alt="Стилизация сайтов" width="370" />
+            
+                <img srcset="./images/adaptive/wwd/img3@1x.jpg 1x, ./images/adaptive/wwd/img3@2x.jpg 2x"
+                            src="./images/wwd/img3.jpg" alt="Стилизация сайтов" width="370" height="294" />
               <p class="work__text">Дизайнерские решения</p>
             </li>
           </ul>
@@ -239,7 +245,31 @@
           <h2 class="section__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__item">
-              <img class="team__img" src="./images/img1.jpg" alt="Игорь Демьяненко" width="270" />
+             <picture>
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-i_demjanenko@1x.webp 1x, ./images/adaptive/ourteam/desktop-i_demjanenko@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-i_demjanenko@1x.jpg 1x, ./images/adaptive/ourteam/desktop-i_demjanenko@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-i_demjanenko@1x.webp 1x, ./images/adaptive/ourteam/tablet-i_demjanenko@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-i_demjanenko@1x.jpg 1x, ./images/adaptive/ourteam/tablet-i_demjanenko@2x.jpg 2x"
+                                media="(min-width: 768px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-i_demjanenko@1x.webp 1x, ./images/adaptive/ourteam/mobile-i_demjanenko@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-i_demjanenko@1x.jpg 1x, ./images/adaptive/ourteam/mobile-i_demjanenko@2x.jpg 2x"
+                                media="(max-width: 767px)">
+
+                            <img class="team__img" src=./images/ourteam/i_demjanenko.jpg alt="i_demjanenko"
+                                width="270" height="260">
+                        </picture>
               <div class="team__border">
                 <h3 class="team__title">Игорь Демьяненко</h3>
                 <p class="team__text">Product Designer</p>
@@ -277,7 +307,31 @@
             </li>
 
             <li class="team__item">
-              <img class="team-img" src="./images/img2.jpg" alt="Ольга Репина" width="270" />
+              <picture>
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-o_repina@1x.webp 1x, ./images/adaptive/ourteam/desktop-o_repina@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-o_repina@1x.jpg 1x, ./images/adaptive/ourteam/desktop-o_repina@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-o_repina@1x.webp 1x, ./images/adaptive/ourteam/tablet-o_repina@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-o_repina@1x.jpg 1x, ./images/adaptive/ourteam/tablet-o_repina@2x.jpg 2x"
+                                media="(min-width: 768px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-o_repina@1x.webp 1x, ./images/adaptive/ourteam/mobile-o_repina@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-o_repina@1x.jpg 1x, ./images/adaptive/ourteam/mobile-o_repina@2x.jpg 2x"
+                                media="(max-width: 767px)">
+
+                            <img class="team__img" src=./images/ourteam/o_repina.jpg alt="o_repina"
+                                width="270" height="260">
+                        </picture>
               <div class="team__border">
                 <h3 class="team__title">Ольга Репина</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -314,7 +368,30 @@
               </div>
             </li>
             <li class="team__item">
-              <img class="team-img" src="./images/img3.jpg" alt="Николай Тарасов" width="270" />
+             <picture>
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-n_tarasov@1x.webp 1x, ./images/adaptive/ourteam/desktop-n_tarasov@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-n_tarasov@1x.jpg 1x, ./images/adaptive/ourteam/desktop-n_tarasov@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-n_tarasov@1x.webp 1x, ./images/adaptive/ourteam/tablet-n_tarasov@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-n_tarasov@1x.jpg 1x, ./images/adaptive/ourteam/tablet-n_tarasov@2x.jpg 2x"
+                                media="(min-width: 768px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-n_tarasov@1x.webp 1x, ./images/adaptive/ourteam/mobile-n_tarasov@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-n_tarasov@1x.jpg 1x, ./images/adaptive/ourteam/mobile-n_tarasov@2x.jpg 2x"
+                                media="(max-width: 767px)">
+
+                            <img class="team__img" src=./images/ourteam/n_tarasov.jpg alt="n_tarasov" width="270" height="260">
+                        </picture>
               <div class="team__border">
                 <h3 class="team__title">Николай Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -351,7 +428,32 @@
               </div>
             </li>
             <li class="team__item">
-              <img class="team-img" src="./images/img4.jpg" alt="Михаил Ермаков" width="270" />
+              <picture>
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-m_ermakov@1x.webp 1x, ./images/adaptive/ourteam/desktop-m_ermakov@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/desktop-m_ermakov@1x.jpg 1x, ./images/adaptive/ourteam/desktop-m_ermakov@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-m_ermakov@1x.webp 1x, ./images/adaptive/ourteam/tablet-m_ermakov@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/tablet-m_ermakov@1x.jpg 1x, ./images/adaptive/ourteam/tablet-m_ermakov@2x.jpg 2x"
+                                media="(min-width: 768px)">
+
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-m_ermakov@1x.webp 1x, ./images/adaptive/ourteam/mobile-m_ermakov@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp">
+                            <source
+                                srcset="./images/adaptive/ourteam/mobile-m_ermakov@1x.jpg 1x, ./images/adaptive/ourteam/mobile-m_ermakov@2x.jpg 2x"
+                                media="(max-width: 767px)">
+
+                            <img class="team__img" src=./images/ourteam/m_ermakov.jpg alt="Михаил Ермаков"
+                                width="270" height="260">
+                        </picture>
+
               <div class="team__border">
                 <h3 class="team__title">Михаил Ермаков</h3>
                 <p class="team__text">UI Designer</p>
