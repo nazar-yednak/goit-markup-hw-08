@@ -1,14 +1,13 @@
-
 .works__nav {
   display: flex;
-  justify-content: center;
-  padding-bottom: 20px;;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
 
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
-.works__item{
-margin-right: 8px;
+.works__item {
+  margin-right: 8px;
+  margin-bottom: 10px;
 }
-
-
-
-
