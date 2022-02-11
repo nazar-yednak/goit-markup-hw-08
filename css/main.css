@@ -1590,7 +1590,7 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .subscription {
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
