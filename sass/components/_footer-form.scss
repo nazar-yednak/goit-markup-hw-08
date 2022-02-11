@@ -10,6 +10,7 @@
   text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
+
   @media screen and (min-width: 1200px) {
     display: block;
     width: 219px;
@@ -24,6 +25,7 @@
   display: block;
   justify-content: center;
   text-align: center;
+
   @media screen and (min-width: 1200px) {
     display: flex;
     margin-left: 93px;
@@ -60,5 +62,13 @@
   fill: $second-accent-color;
   @media screen and (min-width: 1200px) {
     display: inline-block;
+  }
+}
+.subscription {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }

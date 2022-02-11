@@ -58,11 +58,12 @@
   @media screen and (min-width: 767px) {
     display: block;
     margin-left: auto;
-    align-items: center;
+    align-items: baseline;
     justify-content: start;
 
     @media screen and (min-width: 1200px) {
       display: flex;
+      align-items: center;
     }
   }
 }
@@ -72,9 +73,14 @@
 
 .auth-nav {
   &__item + &__item {
-    margin-left: 30px;
+    @media screen and (min-width: 1200px) {
+      margin-left: 30px;
+    }
     @media screen and (min-width: 767px) {
+      display: flex;
+
       &__item {
+        margin-left: auto;
         margin-bottom: 10px;
         margin-left: 0;
       }
@@ -89,6 +95,10 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: $title-text-color;
+  @media screen and (min-width: 767px) {
+    margin-bottom: 10px;
+  }
+
   @media screen and (min-width: 1200px) {
     justify-content: center;
   }
