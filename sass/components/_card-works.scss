@@ -1,15 +1,18 @@
 .card-list {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 20px;
+  margin-top: calc((-1) * #{$list-work-item});
+
   @media screen and (min-width: 768px) {
     margin-left: calc((-1) * #{$list-work-item});
-    margin-top: calc((-1) * #{$list-work-item});
   }
 }
 
 .card-list__item {
   margin-top: 30px;
   width: 450px;
+
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2 - #{$list-work-item});
     margin-left: $list-work-item;
@@ -19,6 +22,12 @@
     flex-basis: calc(100% / 3 - #{$list-work-item});
     margin-left: $list-work-item;
     margin-top: $list-work-item;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
   }
 }
 .card-list__title {
@@ -41,6 +50,9 @@
   border-right: $border-color;
   border-bottom: $border-color;
   padding: 20px 24px 20px 24px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    height: 147px;
+  }
 }
 .card-thumb {
   position: relative;
