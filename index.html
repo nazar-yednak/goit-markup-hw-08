@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Навігація сайта-->
-    <!--  <header class="page-header"> -->
+    <header class="page-header">
       <div class="container main-nav">
         <a class="logo" href="" lang="en"><span class="logo-s">Web</span>Studio</a>
         <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
@@ -62,27 +62,29 @@
               <use href="./images/symbol-defs.svg#icon-close_24px"></use>
             </svg>
           </button>
-        <div class="container-mob">  <ul class="menu-list list">
-            <li class="menu-list__item">
-              <a class="menu-list__link menu-list__current link" href="">Студия</a>
-            </li>
-            <li class="menu-list__item">
-              <a class="menu-list__link link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="menu-list__item"><a class="menu-list__link link" href="">Контакты</a></li>
-          </ul>
-          <ul class="contact-list list">
-            <li class="contact-list__item">
-              <a class="contact-list__link curent-link link" href="tel:+380961111111">
-                +38 096 111 11 11</a
-              >
-            </li>
-            <li class="contact-list__item">
-              <a class="contact-list__link link" href="mailto:info@devstudio.com">
-                info@devstudio.com</a
-              >
-            </li>
-          </ul></div>
+          <div class="container-mob">
+            <ul class="menu-list list">
+              <li class="menu-list__item">
+                <a class="menu-list__link menu-list__current link" href="">Студия</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="menu-list__item"><a class="menu-list__link link" href="">Контакты</a></li>
+            </ul>
+            <ul class="contact-list list">
+              <li class="contact-list__item">
+                <a class="contact-list__link curent-link link" href="tel:+380961111111">
+                  +38 096 111 11 11</a
+                >
+              </li>
+              <li class="contact-list__item">
+                <a class="contact-list__link link" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </div>
           <ul class="social-m list">
             <li class="social-m__item"><a class="social-m__link link" href="">Instagram</a></li>
             <li class="social-m__item"><a class="social-m__link link" href="">Twitter</a></li>
@@ -91,10 +93,10 @@
           </ul>
         </div>
       </div>
-    </header> 
+    </header>
     <main>
       <!--hero-->
-       <section class="section-hero section"> 
+      <section class="section-hero section">
         <div class="container hero">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button class="btn btn-hero" type="button" data-modal-open>Заказать услугу</button>
@@ -157,10 +159,10 @@
             </div>
           </div>
         </div>
-      </section> 
+      </section>
 
       <!--Особливості-->
-     <section class="feature section"> 
+      <section class="feature section">
         <div class="container">
           <ul class="feature__list list">
             <li class="feature__item">
@@ -211,65 +213,104 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
 
       <!--Секція рід заннятть по фото-->
-      <section class=" section work "> 
+      <section class="section work">
         <div class="container">
           <h2 class="work__title">Чем мы занимаемся</h2>
           <ul class="list work__list">
             <li class="work__item">
-             
-              <img srcset="./images/adaptive/wwd/img@1x.jpg 1x, ./images/adaptive/wwd/img@2x.jpg 2x"
-                            src="./images/wwd/img.jpg" alt="Набор кода" width="370" height="294" />
+              <img
+                srcset="./images/adaptive/wwd/img@1x.jpg 1x, ./images/adaptive/wwd/img@2x.jpg 2x"
+                src="./images/wwd/img.jpg"
+                alt="Набор кода"
+                width="370"
+                height="294"
+              />
               <p class="work__text">Десктопные приложения</p>
             </li>
             <li class="work__item">
-              
-               <img srcset="./images/adaptive/wwd/img2@1x.jpg 1x, ./images/adaptive/wwd/img2@2x.jpg 2x"
-                            src="./images/wwd/img2.jpg" alt="Оптимизация под мобильное устройство" width="370" height="294" />
+              <img
+                srcset="./images/adaptive/wwd/img2@1x.jpg 1x, ./images/adaptive/wwd/img2@2x.jpg 2x"
+                src="./images/wwd/img2.jpg"
+                alt="Оптимизация под мобильное устройство"
+                width="370"
+                height="294"
+              />
               <p class="work__text">Мобильные приложения</p>
             </li>
             <li class="work__item">
-            
-                <img srcset="./images/adaptive/wwd/img3@1x.jpg 1x, ./images/adaptive/wwd/img3@2x.jpg 2x"
-                            src="./images/wwd/img3.jpg" alt="Стилизация сайтов" width="370" height="294" />
+              <img
+                srcset="./images/adaptive/wwd/img3@1x.jpg 1x, ./images/adaptive/wwd/img3@2x.jpg 2x"
+                src="./images/wwd/img3.jpg"
+                alt="Стилизация сайтов"
+                width="370"
+                height="294"
+              />
               <p class="work__text">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
       <!--Наша команда-->
-       <section class="team section">
+      <section class="team section">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__item">
-             <picture>
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-i_demjanenko@1x.webp 1x, ./images/adaptive/ourteam/desktop-i_demjanenko@2x.webp 2x"
-                                media="(min-width: 1200px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-i_demjanenko@1x.jpg 1x, ./images/adaptive/ourteam/desktop-i_demjanenko@2x.jpg 2x"
-                                media="(min-width: 1200px)">
+              <picture>
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-i_demjanenko@1x.webp 1x,
+                    ./images/adaptive/ourteam/desktop-i_demjanenko@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-i_demjanenko@1x.jpg 1x,
+                    ./images/adaptive/ourteam/desktop-i_demjanenko@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-i_demjanenko@1x.webp 1x, ./images/adaptive/ourteam/tablet-i_demjanenko@2x.webp 2x"
-                                media="(min-width: 768px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-i_demjanenko@1x.jpg 1x, ./images/adaptive/ourteam/tablet-i_demjanenko@2x.jpg 2x"
-                                media="(min-width: 768px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-i_demjanenko@1x.webp 1x,
+                    ./images/adaptive/ourteam/tablet-i_demjanenko@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-i_demjanenko@1x.jpg 1x,
+                    ./images/adaptive/ourteam/tablet-i_demjanenko@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-i_demjanenko@1x.webp 1x, ./images/adaptive/ourteam/mobile-i_demjanenko@2x.webp 2x"
-                                media="(max-width: 767px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-i_demjanenko@1x.jpg 1x, ./images/adaptive/ourteam/mobile-i_demjanenko@2x.jpg 2x"
-                                media="(max-width: 767px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-i_demjanenko@1x.webp 1x,
+                    ./images/adaptive/ourteam/mobile-i_demjanenko@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-i_demjanenko@1x.jpg 1x,
+                    ./images/adaptive/ourteam/mobile-i_demjanenko@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
 
-                            <img class="team__img" src=./images/ourteam/i_demjanenko.jpg alt="i_demjanenko"
-                                width="270" height="260">
-                        </picture>
+                <img class="team__img" src=./images/ourteam/i_demjanenko.jpg alt="i_demjanenko"
+                width="270" height="260">
+              </picture>
               <div class="team__border">
                 <h3 class="team__title">Игорь Демьяненко</h3>
                 <p class="team__text">Product Designer</p>
@@ -308,30 +349,57 @@
 
             <li class="team__item">
               <picture>
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-o_repina@1x.webp 1x, ./images/adaptive/ourteam/desktop-o_repina@2x.webp 2x"
-                                media="(min-width: 1200px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-o_repina@1x.jpg 1x, ./images/adaptive/ourteam/desktop-o_repina@2x.jpg 2x"
-                                media="(min-width: 1200px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-o_repina@1x.webp 1x,
+                    ./images/adaptive/ourteam/desktop-o_repina@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-o_repina@1x.jpg 1x,
+                    ./images/adaptive/ourteam/desktop-o_repina@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-o_repina@1x.webp 1x, ./images/adaptive/ourteam/tablet-o_repina@2x.webp 2x"
-                                media="(min-width: 768px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-o_repina@1x.jpg 1x, ./images/adaptive/ourteam/tablet-o_repina@2x.jpg 2x"
-                                media="(min-width: 768px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-o_repina@1x.webp 1x,
+                    ./images/adaptive/ourteam/tablet-o_repina@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-o_repina@1x.jpg 1x,
+                    ./images/adaptive/ourteam/tablet-o_repina@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-o_repina@1x.webp 1x, ./images/adaptive/ourteam/mobile-o_repina@2x.webp 2x"
-                                media="(max-width: 767px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-o_repina@1x.jpg 1x, ./images/adaptive/ourteam/mobile-o_repina@2x.jpg 2x"
-                                media="(max-width: 767px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-o_repina@1x.webp 1x,
+                    ./images/adaptive/ourteam/mobile-o_repina@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-o_repina@1x.jpg 1x,
+                    ./images/adaptive/ourteam/mobile-o_repina@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
 
-                            <img class="team__img" src=./images/ourteam/o_repina.jpg alt="o_repina"
-                                width="270" height="260">
-                        </picture>
+                <img class="team__img" src=./images/ourteam/o_repina.jpg alt="o_repina" width="270"
+                height="260">
+              </picture>
               <div class="team__border">
                 <h3 class="team__title">Ольга Репина</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -368,30 +436,58 @@
               </div>
             </li>
             <li class="team__item">
-             <picture>
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-n_tarasov@1x.webp 1x, ./images/adaptive/ourteam/desktop-n_tarasov@2x.webp 2x"
-                                media="(min-width: 1200px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-n_tarasov@1x.jpg 1x, ./images/adaptive/ourteam/desktop-n_tarasov@2x.jpg 2x"
-                                media="(min-width: 1200px)">
+              <picture>
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-n_tarasov@1x.webp 1x,
+                    ./images/adaptive/ourteam/desktop-n_tarasov@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-n_tarasov@1x.jpg 1x,
+                    ./images/adaptive/ourteam/desktop-n_tarasov@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-n_tarasov@1x.webp 1x, ./images/adaptive/ourteam/tablet-n_tarasov@2x.webp 2x"
-                                media="(min-width: 768px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-n_tarasov@1x.jpg 1x, ./images/adaptive/ourteam/tablet-n_tarasov@2x.jpg 2x"
-                                media="(min-width: 768px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-n_tarasov@1x.webp 1x,
+                    ./images/adaptive/ourteam/tablet-n_tarasov@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-n_tarasov@1x.jpg 1x,
+                    ./images/adaptive/ourteam/tablet-n_tarasov@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-n_tarasov@1x.webp 1x, ./images/adaptive/ourteam/mobile-n_tarasov@2x.webp 2x"
-                                media="(max-width: 767px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-n_tarasov@1x.jpg 1x, ./images/adaptive/ourteam/mobile-n_tarasov@2x.jpg 2x"
-                                media="(max-width: 767px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-n_tarasov@1x.webp 1x,
+                    ./images/adaptive/ourteam/mobile-n_tarasov@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-n_tarasov@1x.jpg 1x,
+                    ./images/adaptive/ourteam/mobile-n_tarasov@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
 
-                            <img class="team__img" src=./images/ourteam/n_tarasov.jpg alt="n_tarasov" width="270" height="260">
-                        </picture>
+                <img class="team__img" src=./images/ourteam/n_tarasov.jpg alt="n_tarasov"
+                width="270" height="260">
+              </picture>
               <div class="team__border">
                 <h3 class="team__title">Николай Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -429,30 +525,57 @@
             </li>
             <li class="team__item">
               <picture>
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-m_ermakov@1x.webp 1x, ./images/adaptive/ourteam/desktop-m_ermakov@2x.webp 2x"
-                                media="(min-width: 1200px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/desktop-m_ermakov@1x.jpg 1x, ./images/adaptive/ourteam/desktop-m_ermakov@2x.jpg 2x"
-                                media="(min-width: 1200px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-m_ermakov@1x.webp 1x,
+                    ./images/adaptive/ourteam/desktop-m_ermakov@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/desktop-m_ermakov@1x.jpg 1x,
+                    ./images/adaptive/ourteam/desktop-m_ermakov@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-m_ermakov@1x.webp 1x, ./images/adaptive/ourteam/tablet-m_ermakov@2x.webp 2x"
-                                media="(min-width: 768px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/tablet-m_ermakov@1x.jpg 1x, ./images/adaptive/ourteam/tablet-m_ermakov@2x.jpg 2x"
-                                media="(min-width: 768px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-m_ermakov@1x.webp 1x,
+                    ./images/adaptive/ourteam/tablet-m_ermakov@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/tablet-m_ermakov@1x.jpg 1x,
+                    ./images/adaptive/ourteam/tablet-m_ermakov@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
 
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-m_ermakov@1x.webp 1x, ./images/adaptive/ourteam/mobile-m_ermakov@2x.webp 2x"
-                                media="(max-width: 767px)" type="image/webp">
-                            <source
-                                srcset="./images/adaptive/ourteam/mobile-m_ermakov@1x.jpg 1x, ./images/adaptive/ourteam/mobile-m_ermakov@2x.jpg 2x"
-                                media="(max-width: 767px)">
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-m_ermakov@1x.webp 1x,
+                    ./images/adaptive/ourteam/mobile-m_ermakov@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/adaptive/ourteam/mobile-m_ermakov@1x.jpg 1x,
+                    ./images/adaptive/ourteam/mobile-m_ermakov@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
 
-                            <img class="team__img" src=./images/ourteam/m_ermakov.jpg alt="Михаил Ермаков"
-                                width="270" height="260">
-                        </picture>
+                <img class="team__img" src=./images/ourteam/m_ermakov.jpg alt="Михаил Ермаков"
+                width="270" height="260">
+              </picture>
 
               <div class="team__border">
                 <h3 class="team__title">Михаил Ермаков</h3>
@@ -491,9 +614,9 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
       <!--Постоянные клиенты-->
-      <section class="section client"> 
+      <section class="section client">
         <div class="container">
           <h2 class="client__title">Постоянные клиенты</h2>
           <ul class="list client__list">
@@ -541,7 +664,7 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
     </main>
     <!--Подвал сторынки з адресою-->
     <footer>
