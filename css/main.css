@@ -40,6 +40,12 @@ img {
   /*outline: 3px solid tomato;*/
 }
 
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -550,7 +556,7 @@ img {
 
 @media (min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
   .section-hero {
-    background-image: url("../images/adaptive/herobg/mobile-herobg@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/adaptive/herobg/mobile-herobg@2x.jpg");
   }
   .hero__title {
     margin-bottom: 30px;
@@ -582,7 +588,7 @@ img {
 
 @media (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
   .section-hero {
-    background-image: url("../images/adaptive/herobg/tablet-herobg@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/adaptive/herobg/tablet-herobg@2x.jpg");
   }
 }
 
@@ -606,7 +612,7 @@ img {
 
 @media (min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
   .section-hero {
-    background-image: url("../images/adaptive/herobg/desktop-herobg@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/adaptive/herobg/desktop-herobg@2x.jpg");
   }
 }
 
@@ -1242,6 +1248,12 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 320px) {
+  .client__link {
+    width: 210px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .client__link {
     width: 210px;
@@ -1273,6 +1285,14 @@ img {
 
 .client__item {
   display: flex;
+}
+
+@media screen and (min-width: 320px) {
+  .client__item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -1726,7 +1746,8 @@ footer {
 }
 
 .subscription__input {
-  width: 450px;
+  min-width: 320px;
+  max-width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
