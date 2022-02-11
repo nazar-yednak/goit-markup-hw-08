@@ -478,6 +478,7 @@ img {
   background-color: #f5f4fa;
   color: #212121;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works__btn:hover, .works__btn:focus {
