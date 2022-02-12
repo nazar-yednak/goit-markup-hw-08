@@ -247,6 +247,12 @@ img {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .social-m__link {
+    font-size: 9px;
+  }
+}
+
 .logo {
   display: block;
   padding-top: 24px;
