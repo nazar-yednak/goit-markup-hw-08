@@ -164,7 +164,6 @@ img {
 }
 
 .menu-list__link {
-  position: relative;
   color: #212121;
   font-family: Roboto;
   font-style: normal;
@@ -216,6 +215,12 @@ img {
   letter-spacing: 0.02em;
   color: #2196f3;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .curent-link {
+    font-size: 26px;
+  }
 }
 
 .social-m {
