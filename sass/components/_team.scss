@@ -90,7 +90,7 @@
 }
 .team__img {
   max-width: 450px;
-  height: 460px;
+  max-height: 460px;
   @media screen and (min-width: 768px) {
     width: 354px;
     height: 374px;

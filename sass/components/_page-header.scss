@@ -1,6 +1,9 @@
 .page-header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
   background-color: #fff;
+  // @media screen and (max-width: 479px) {
+  //   position: relative;
+  // }
 }
 .main-nav {
   display: flex;
