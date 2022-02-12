@@ -32,14 +32,15 @@ img {
 }
 .container {
   // width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
   /*outline: 3px solid tomato;*/
-  @media screen and (min-width: 320px) {
-    width: 320px;
-  }
+  // @media screen and (min-width: 320px) {
+  //   width: 320px;
+  // }
   @media screen and (min-width: 480px) {
     width: 480px;
   }
