@@ -1430,7 +1430,7 @@ img {
 
 .card-thumb {
   position: relative;
-  max-width: 450px;
+  width: 100%;
   height: 100%;
   overflow: hidden;
 }
@@ -1450,25 +1450,37 @@ img {
 .card-thumb__text {
   position: absolute;
   left: 0;
-  top: 100%;
+  top: 150%;
   width: 100%;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 77px;
+  padding-top: 63px;
+  padding-bottom: 63px;
   z-index: 2;
   color: #ffffff;
   opacity: 0;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 320px) {
   .card-thumb__text {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 0;
+    top: 210%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .card-thumb__text {
+    top: 140%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .card-thumb__text {
+    top: 160%;
   }
 }
 
